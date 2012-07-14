@@ -119,16 +119,16 @@
 (require 'c-settings)
 
 ;; cedet 
-(load "cedet-settings")
+;(load "cedet-settings")
 
 ;; ECB
-(require 'ecb-settings)
+;(require 'ecb-settings)
 
 ;; doxymacs
 (require 'doxymacs-settings)
 
 ;; gdb settings
-(require 'gdb-settings)
+;(require 'gdb-settings)
 
 ;; git-emacs settings
 (require 'git-emacs-settings)
