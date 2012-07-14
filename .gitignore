@@ -1,4 +1,4 @@
-# git-ls-files --others --exclude-from=.git/info/exclude
+# .gitignore --others --exclude-from=.git/info/exclude
 # Lines that start with '#' are comments.
 # For a project mostly in C, the following would be a good set of
 # exclude patterns (uncomment them if you want to use them):
@@ -8,12 +8,6 @@
 *~
 *.elc
 Thumbs.db
-.eshell/
-.semanticdb/
-.srecode/
-.ssh/
-.subversion/
-mail/
 .ido.last
 .emacs.before_ecb_2.40
 .abbrev_defs
@@ -23,3 +17,11 @@ tramp
 _viminfo
 abbrev_defs
 session.*
+.eshell/
+.semanticdb/
+.srecode/
+.ssh/
+.subversion/
+mail/
+.emacs.d/elpa/
+.emacs.d/eshell/
