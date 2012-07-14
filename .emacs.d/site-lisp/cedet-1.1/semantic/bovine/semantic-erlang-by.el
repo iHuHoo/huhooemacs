@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2002, 2003 Vladimir G. Sekissov
 
-;; Author: Eric M. Ludlam <zappo@projectile.siege-engine.com>
-;; Created: 2010-09-23 21:03:37-0400
+;; Author: wanghu3 <wanghu3@build8.kill.corp.qihoo.net>
+;; Created: 2012-07-14 13:12:05+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

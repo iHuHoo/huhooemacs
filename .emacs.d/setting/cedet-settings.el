@@ -1,5 +1,5 @@
 ;; -*- Emacs-Lisp -*-
-;; -*- coding:utf-8 -*-
+;; -*- codi:utf-8 -*-
 ;;
 ;; ------------------------------------------------------------------------------
 ;;
@@ -13,7 +13,7 @@
 ;; ------------------------------------------------------------------------------
 ;;
 
-(defvar cedet-path (concat my-emacs-vendor-lisps-path "cedet-1.0") "Path of `cedet'")
+(defvar cedet-path (concat my-emacs-vendor-lisps-path "cedet-1.1") "Path of `cedet'")
 (my-add-subdirs-to-load-path cedet-path)
 
 (require 'cedet)
@@ -24,8 +24,6 @@
 ;; (require 'cedet-srecode-settings)
 ;; (require 'cedet-speedbar-settings)
 
-;; 用pulse实现Emacs的淡入淡出效果
-;; http://emacser.com/pulse.htm
 (require 'pulse-settings)
 
 (semantic-load-enable-minimum-features)
@@ -71,14 +69,14 @@
                     (semantic-mrub-switch-tags first))))
 
 ;; code complete
-(define-key c-mode-base-map (kbd "M-n") 'semantic-ia-complete-symbol-menu)
+;(define-key c-mode-base-map (kbd "M-n") 'semantic-ia-complete-symbol-menu)
 
 ;; ede 
 (global-ede-mode t)
 
 ;; switch source file and header file
 (require 'eassist nil 'noerror)
-(define-key c-mode-base-map [C-c, o] 'eassist-switch-h-cpp)
+;(define-key c-mode-base-map [C-c, o] 'eassist-switch-h-cpp)
 (setq eassist-header-switches
       '(("h" . ("cpp" "cxx" "c++" "CC" "cc" "C" "c" "mm" "m"))
         ("hh" . ("cc" "CC" "cpp" "cxx" "c++" "C"))
@@ -98,14 +96,14 @@
         ("mm" . ("h"))))
 
 ;; autoload
-(defun cedet-settings-4-info ()
-  "`cedet' settings for `info'."
-  (info-initialize)
-  (dolist (package `("cogre" "common" "ede" "eieio" "semantic/doc" "speedbar" "srecode"))
-    (add-to-list 'Info-directory-list (concat my-emacs-vendor-lisps-path "cedet-1.0/" package "/"))))
+;; (defun cedet-settings-4-info ()
+;;   "`cedet' settings for `info'."
+;;   (info-initialize)
+;;   (dolist (package `("cogre" "common" "ede" "eieio" "semantic/doc" "speedbar" "srecode"))
+;;     (add-to-list 'Info-directory-list (concat my-emacs-vendor-lisps-path "cedet-1.0/" package "/"))))
 
-(eval-after-load "info"
-  `(cedet-settings-4-info))
+;; (eval-after-load "info"
+;;   `(cedet-settings-4-info))
 
 (provide 'cedet-settings)
 

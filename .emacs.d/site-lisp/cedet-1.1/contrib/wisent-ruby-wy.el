@@ -2,8 +2,8 @@
 
 ;;; Copyright (C) 2007 Daniel Debertin (debertin@gmail.com)
 
-;; Author: Eric M. Ludlam <zappo@projectile.siege-engine.com>
-;; Created: 2010-09-23 21:03:46-0400
+;; Author: wanghu3 <wanghu3@build8.kill.corp.qihoo.net>
+;; Created: 2012-07-14 13:12:34+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

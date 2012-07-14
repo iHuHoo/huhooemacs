@@ -119,7 +119,7 @@
 (require 'c-settings)
 
 ;; cedet 
-;(load "cedet-settings")
+(require 'cedet-settings)
 
 ;; ECB
 ;(require 'ecb-settings)
