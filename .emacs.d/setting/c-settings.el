@@ -15,6 +15,10 @@
 
 ;; c/cpp IDE settings
 
+;; basic settings: style, offset, etc.
 (require 'c-basic)
+
+;; source pair, jump between header and source files.
+(require 'c-source-pair)
 
 (provide 'c-settings)

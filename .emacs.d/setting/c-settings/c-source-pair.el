@@ -53,4 +53,4 @@ See the documentation for these variables for more info.
 (eval-after-load "sourcepair"
   `(sourcepair-settings))
 
-(provide 'sourcepair-settings)
+(provide 'c-source-pair)
