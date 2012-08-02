@@ -21,4 +21,10 @@
 ;; source pair, jump between header and source files.
 (require 'c-source-pair)
 
+;; c中隐藏ifdef
+(require 'hide-ifdef-settings)
+
+;; 为不同层次的ifdef着色
+(require 'ifdef-settings)
+
 (provide 'c-settings)
