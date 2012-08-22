@@ -32,7 +32,7 @@
 
 (defalias 'cpp-mode 'c++-mode)
 
-(eval-after-load "cc-mode"
-  `(cc-mode-settings))
+;(eval-after-load "cc-mode"
+;  `(c-basic))
 
 (provide 'c-basic)
