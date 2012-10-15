@@ -119,10 +119,10 @@
 (require 'c-settings)
 
 ;; cedet 
-;(require 'cedet-settings)
+(require 'cedet-settings)
 
 ;; ECB
-;(require 'ecb-settings)
+(require 'ecb-settings)
 
 ;; doxymacs
 ;(require 'doxymacs-settings)

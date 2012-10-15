@@ -9,4 +9,5 @@
 	ci = commit
 	st = status
 [core]
-	autocrlf = true
+    eol = lf
+	autocrlf = false
