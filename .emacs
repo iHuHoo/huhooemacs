@@ -27,6 +27,8 @@
 (my-add-subdirs-to-load-path my-emacs-settings-path)
 
 
+(setq stack-trace-on-error t)
+
 ;; 设置默认工作目录
 (setq default-directory "~/work/")
 
