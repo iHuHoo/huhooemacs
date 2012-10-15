@@ -111,7 +111,7 @@
 (setq max-lisp-eval-depth 40000)
 
 ;; bormal backspace
-;(normal-erase-is-backspace-mode t)
+(normal-erase-is-backspace-mode t)
 
 ;; 最大容量
 (setq max-specpdl-size 10000)
