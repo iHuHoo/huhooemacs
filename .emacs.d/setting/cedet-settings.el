@@ -33,8 +33,16 @@
 ;; (semantic-load-enable-semantic-debugging-helpers)
 
 (defconst user-include-dirs
-  (list ".." "../include" "../inc" "../common" "../public"
-        "../.." "../../include" "../../inc" "../../common" "../../public"))
+  (list ".."
+        "../.."
+        "../inc"
+        "../include"
+        "../common"
+        "../public"
+        "../../include"
+        "../../inc"
+        "../../common"
+        "../../public"))
 (defconst win-include-dirs
   (list "C:/MinGW/include"
         "C:/MinGW/include/c++/3.4.5"
